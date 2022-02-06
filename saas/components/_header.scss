@@ -1,0 +1,33 @@
+.header {
+    background: url("../img/cleaner1_117copy@1x.jpg") no-repeat center center;
+    background-size: cover;
+    border: 1px solid red;
+    padding-top: 280px;
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+        background: url("../img/cleaner1_117copy@2x.jpg") no-repeat center
+            center;
+    }
+}
+
+.logo-button {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &__link {
+    }
+    &__img {
+    }
+    &__btn {
+        background: #b5ca00;
+        border: 1px solid #ffffff;
+
+        border-radius: 4px;
+        padding: 20px 98px;
+
+        @include font(18px, 700, 1.16, #fff);
+    }
+}

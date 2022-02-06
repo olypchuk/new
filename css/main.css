@@ -35,5 +35,58 @@ body {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   color: #000000;
+  min-width: 320px;
+}
+
+.container {
+  padding: 0 13px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1035px;
+  }
+}
+
+.header {
+  background: url("../img/cleaner1_117copy@1x.jpg") no-repeat center center;
+  background-size: cover;
+  border: 1px solid red;
+  padding-top: 280px;
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .header {
+    background: url("../img/cleaner1_117copy@2x.jpg") no-repeat center center;
+  }
+}
+
+.logo-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-button__btn {
+  background: #b5ca00;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 20px 98px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.16;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
