@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+body {
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
+}
+/*# sourceMappingURL=main.css.map */
